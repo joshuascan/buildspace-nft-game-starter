@@ -104,7 +104,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    checkNetwork();
+    // checkNetwork();
     setIsLoading(true);
     checkIfWalletIsConnected();
   }, []);
